@@ -1,0 +1,416 @@
+{
+  "data": {
+    "allProducts": [
+      {
+        "label": "Sub-Ex",
+        "type": "Latlux",
+        "color": null,
+        "hex": null,
+        "price": null,
+        "currency": null,
+        "src": null,
+        "code": null
+      },
+      {
+        "label": "Tin",
+        "type": "Latlux",
+        "color": "Orange",
+        "hex": "#06ec69",
+        "price": 4.25,
+        "currency": "Euro",
+        "src": "https://api.sentia.com/132x100.png/dddddd/000000",
+        "code": "9218263641"
+      },
+      {
+        "label": "Ronstring",
+        "type": "Latlux",
+        "color": "Orange",
+        "hex": "#efc3c3",
+        "price": 8.18,
+        "currency": "Rupee",
+        "src": "https://api.sentia.com/168x100.png/dddddd/000000",
+        "code": "7943197488"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Latlux",
+        "color": "Khaki",
+        "hex": "#1c3f93",
+        "price": 8.42,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/240x100.png/cc0000/ffffff",
+        "code": "2213829152"
+      },
+      {
+        "label": "Hatity",
+        "type": "Latlux",
+        "color": "Orange",
+        "hex": "#7d23f9",
+        "price": 9,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/229x100.png/cc0000/ffffff",
+        "code": "1085371336"
+      },
+      {
+        "label": "Overhold",
+        "type": "Latlux",
+        "color": "Green",
+        "hex": "#c9d226",
+        "price": 14.36,
+        "currency": "Hryvnia",
+        "src": "https://api.sentia.com/247x100.png/ff4444/ffffff",
+        "code": "7479055390"
+      },
+      {
+        "label": "Aerified",
+        "type": "Latlux",
+        "color": "Purple",
+        "hex": "#863cbd",
+        "price": 14.78,
+        "currency": "Peso",
+        "src": "https://api.sentia.com/218x100.png/cc0000/ffffff",
+        "code": "3669694498"
+      },
+      {
+        "label": "Kanlam",
+        "type": "Latlux",
+        "color": "Red",
+        "hex": "#bc9b8c",
+        "price": 19.59,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/181x100.png/cc0000/ffffff",
+        "code": "1091650063"
+      },
+      {
+        "label": "Overhold",
+        "type": "Latlux",
+        "color": "Maroon",
+        "hex": "#002fe5",
+        "price": 20.57,
+        "currency": "Rupiah",
+        "src": "https://api.sentia.com/203x100.png/5fa2dd/ffffff",
+        "code": "6222892140"
+      },
+      {
+        "label": "Regrant",
+        "type": "Latlux",
+        "color": "Maroon",
+        "hex": "#f7f7d1",
+        "price": 21.29,
+        "currency": "Rupiah",
+        "src": "https://api.sentia.com/150x100.png/5fa2dd/ffffff",
+        "code": "1654236942"
+      },
+      {
+        "label": "Temp",
+        "type": "Latlux",
+        "color": "Aquamarine",
+        "hex": "#1d6bf5",
+        "price": 24.87,
+        "currency": "Peso",
+        "src": "https://api.sentia.com/137x100.png/5fa2dd/ffffff",
+        "code": "8743831648"
+      },
+      {
+        "label": "Regrant",
+        "type": "Latlux",
+        "color": "Yellow",
+        "hex": "#c8191b",
+        "price": 29.68,
+        "currency": "Rand",
+        "src": "https://api.sentia.com/196x100.png/ff4444/ffffff",
+        "code": "7430635946"
+      },
+      {
+        "label": "Ronstring",
+        "type": "Latlux",
+        "color": "Goldenrod",
+        "hex": "#83cbb8",
+        "price": 33.04,
+        "currency": "Euro",
+        "src": "https://api.sentia.com/110x100.png/5fa2dd/ffffff",
+        "code": "4770223927"
+      },
+      {
+        "label": "Temp",
+        "type": "Latlux",
+        "color": "Red",
+        "hex": "#633e8c",
+        "price": 34.56,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/204x100.png/cc0000/ffffff",
+        "code": "6372801884"
+      },
+      {
+        "label": "Hatity",
+        "type": "Latlux",
+        "color": "Violet",
+        "hex": "#13a63e",
+        "price": 39.55,
+        "currency": "Dollar",
+        "src": "https://api.sentia.com/176x100.png/ff4444/ffffff",
+        "code": "9713418182"
+      },
+      {
+        "label": "Tin",
+        "type": "Latlux",
+        "color": "Purple",
+        "hex": "#645f92",
+        "price": 40.41,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/149x100.png/ff4444/ffffff",
+        "code": "9185551929"
+      },
+      {
+        "label": "Redhold",
+        "type": "Latlux",
+        "color": "Khaki",
+        "hex": "#64d252",
+        "price": 43.57,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/186x100.png/cc0000/ffffff",
+        "code": "7571912237"
+      },
+      {
+        "label": "Solarbreeze",
+        "type": "Latlux",
+        "color": "Red",
+        "hex": "#02dce9",
+        "price": 45.08,
+        "currency": "Baht",
+        "src": "https://api.sentia.com/137x100.png/ff4444/ffffff",
+        "code": "7885919986"
+      },
+      {
+        "label": "Kanlam",
+        "type": "Latlux",
+        "color": "Turquoise",
+        "hex": "#563663",
+        "price": 46.75,
+        "currency": "Quetzal",
+        "src": "https://api.sentia.com/237x100.png/5fa2dd/ffffff",
+        "code": "8350816678"
+      },
+      {
+        "label": "Solarbreeze",
+        "type": "Latlux",
+        "color": "Violet",
+        "hex": "#5fdb8f",
+        "price": 47.61,
+        "currency": "Kuna",
+        "src": "https://api.sentia.com/173x100.png/5fa2dd/ffffff",
+        "code": "8629275111"
+      },
+      {
+        "label": "Tempsoft",
+        "type": "Latlux",
+        "color": "Orange",
+        "hex": "#f44942",
+        "price": 48.81,
+        "currency": "Ringgit",
+        "src": "https://api.sentia.com/193x100.png/cc0000/ffffff",
+        "code": "7913575808"
+      },
+      {
+        "label": "Daltfresh",
+        "type": "Latlux",
+        "color": "Aquamarine",
+        "hex": "#53af6c",
+        "price": 51.03,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/229x100.png/5fa2dd/ffffff",
+        "code": "3675356388"
+      },
+      {
+        "label": "Fintone",
+        "type": "Latlux",
+        "color": "Aquamarine",
+        "hex": "#4c211a",
+        "price": 52.38,
+        "currency": "Ruble",
+        "src": "https://api.sentia.com/145x100.png/ff4444/ffffff",
+        "code": "1940723124"
+      },
+      {
+        "label": "Temp",
+        "type": "Latlux",
+        "color": "Puce",
+        "hex": "#e37054",
+        "price": 54.4,
+        "currency": "Franc",
+        "src": "https://api.sentia.com/206x100.png/dddddd/000000",
+        "code": "1574589849"
+      },
+      {
+        "label": "Daltfresh",
+        "type": "Latlux",
+        "color": "Puce",
+        "hex": "#2a59e6",
+        "price": 56.89,
+        "currency": "Peso",
+        "src": "https://api.sentia.com/116x100.png/cc0000/ffffff",
+        "code": "2447563442"
+      },
+      {
+        "label": "Ronstring",
+        "type": "Latlux",
+        "color": "Mauv",
+        "hex": "#8233ed",
+        "price": 63.86,
+        "currency": "Rupiah",
+        "src": "https://api.sentia.com/160x100.png/cc0000/ffffff",
+        "code": "0855497467"
+      },
+      {
+        "label": "Fintone",
+        "type": "Latlux",
+        "color": "Mauv",
+        "hex": "#c71e77",
+        "price": 66.66,
+        "currency": "Zloty",
+        "src": "https://api.sentia.com/246x100.png/ff4444/ffffff",
+        "code": "9900056965"
+      },
+      {
+        "label": "Konklux",
+        "type": "Latlux",
+        "color": "Purple",
+        "hex": "#6f10cf",
+        "price": 69.04,
+        "currency": "Som",
+        "src": "https://api.sentia.com/204x100.png/5fa2dd/ffffff",
+        "code": "2096509688"
+      },
+      {
+        "label": "Keylex",
+        "type": "Latlux",
+        "color": "Fuscia",
+        "hex": "#3067b9",
+        "price": 69.5,
+        "currency": "Peso",
+        "src": "https://api.sentia.com/113x100.png/5fa2dd/ffffff",
+        "code": "4482086185"
+      },
+      {
+        "label": "Veribet",
+        "type": "Latlux",
+        "color": "Aquamarine",
+        "hex": "#1fadfc",
+        "price": 69.77,
+        "currency": "Ruble",
+        "src": "https://api.sentia.com/216x100.png/dddddd/000000",
+        "code": "9759265117"
+      },
+      {
+        "label": "Overhold",
+        "type": "Latlux",
+        "color": "Violet",
+        "hex": "#eedf91",
+        "price": 70.34,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/189x100.png/cc0000/ffffff",
+        "code": "3200610069"
+      },
+      {
+        "label": "Aerified",
+        "type": "Latlux",
+        "color": "Mauv",
+        "hex": "#8b37fe",
+        "price": 73.87,
+        "currency": "Euro",
+        "src": "https://api.sentia.com/223x100.png/dddddd/000000",
+        "code": "9496529437"
+      },
+      {
+        "label": "Redhold",
+        "type": "Latlux",
+        "color": "Blue",
+        "hex": "#607139",
+        "price": 74.54,
+        "currency": "Shekel",
+        "src": "https://api.sentia.com/190x100.png/cc0000/ffffff",
+        "code": "4830379855"
+      },
+      {
+        "label": "Konklux",
+        "type": "Latlux",
+        "color": "Purple",
+        "hex": "#c9216d",
+        "price": 74.82,
+        "currency": "Euro",
+        "src": "https://api.sentia.com/131x100.png/cc0000/ffffff",
+        "code": "3533783294"
+      },
+      {
+        "label": "Konklux",
+        "type": "Latlux",
+        "color": "Red",
+        "hex": "#b06b0e",
+        "price": 80.8,
+        "currency": "Ruble",
+        "src": "https://api.sentia.com/199x100.png/ff4444/ffffff",
+        "code": "6773923603"
+      },
+      {
+        "label": "Tin",
+        "type": "Latlux",
+        "color": "Crimson",
+        "hex": "#9e8e85",
+        "price": 85.01,
+        "currency": "Hryvnia",
+        "src": "https://api.sentia.com/128x100.png/ff4444/ffffff",
+        "code": "8733696497"
+      },
+      {
+        "label": "Redhold",
+        "type": "Latlux",
+        "color": "Crimson",
+        "hex": "#7dff91",
+        "price": 86.02,
+        "currency": "Euro",
+        "src": "https://api.sentia.com/129x100.png/5fa2dd/ffffff",
+        "code": "6180581045"
+      },
+      {
+        "label": "Keylex",
+        "type": "Latlux",
+        "color": "Indigo",
+        "hex": "#93dbb5",
+        "price": 87.64,
+        "currency": "Ruble",
+        "src": "https://api.sentia.com/112x100.png/cc0000/ffffff",
+        "code": "4191551302"
+      },
+      {
+        "label": "Regrant",
+        "type": "Latlux",
+        "color": "Crimson",
+        "hex": "#4b4987",
+        "price": 93.39,
+        "currency": "Lek",
+        "src": "https://api.sentia.com/132x100.png/ff4444/ffffff",
+        "code": "7642658877"
+      },
+      {
+        "label": "Keylex",
+        "type": "Latlux",
+        "color": "Fuscia",
+        "hex": "#a161e6",
+        "price": 94.91,
+        "currency": "Rial",
+        "src": "https://api.sentia.com/197x100.png/cc0000/ffffff",
+        "code": "8906493304"
+      },
+      {
+        "label": "Daltfresh",
+        "type": "Latlux",
+        "color": "Teal",
+        "hex": "#c166f7",
+        "price": 95.65,
+        "currency": "Dollar",
+        "src": "https://api.sentia.com/125x100.png/5fa2dd/ffffff",
+        "code": "2062575580"
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+type Query {
+    allProducts(filter: ProductsFilter, sort: String): [Product]
+    product(id: String): Product
+}

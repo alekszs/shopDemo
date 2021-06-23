@@ -1,0 +1,12 @@
+query{
+    allProducts(filter:{minPrice:16.00, maxPrice:56.00},sort:""){
+        label
+        type
+        color
+        hex
+        price
+        currency
+        src
+        code
+    }
+}

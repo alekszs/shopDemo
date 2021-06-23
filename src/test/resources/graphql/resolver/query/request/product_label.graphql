@@ -1,0 +1,12 @@
+query{
+  allProducts(filter:{label:"Ho"},sort:""){
+    label
+    type
+    color
+    hex
+    price
+    currency
+    src
+    code
+  }
+}

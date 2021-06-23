@@ -1,0 +1,19 @@
+type Product {
+    id: String
+    label: String
+    type: String
+    color: String
+    hex: String
+    price: Float
+    currency: String
+    src: String
+    code: String
+}
+
+input ProductsFilter {
+    label: String
+    type: String
+    color: String
+    minPrice: Float
+    maxPrice: Float
+}

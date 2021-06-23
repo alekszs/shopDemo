@@ -1,0 +1,54 @@
+server:
+  port: 8080
+
+data:
+  set: json/products.json
+
+---
+spring:
+  profiles: dev
+  data:
+    mongodb:
+      database: shop_dev_db
+      port: 27018
+      host: localhost
+  autoconfigure:
+    exclude:
+      - com.graphql.spring.boot.test.GraphQLTestAutoConfiguration
+
+changelog:
+  switch: true
+
+logging:
+  level:
+    com:
+      sentia: DEBUG
+
+---
+
+spring:
+  profiles: prod
+  data:
+    mongodb:
+      database: shop_prod_db
+      port: 27017
+      host: localhost
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.mongo.embedded.EmbeddedMongoAutoConfiguration
+      - com.graphql.spring.boot.test.GraphQLTestAutoConfiguration
+
+changelog:
+  switch: true
+
+---
+spring:
+  profiles: test
+  data:
+    mongodb:
+      database: shop_test_db
+      port: 27018
+      host: localhost
+
+changelog:
+  switch: true

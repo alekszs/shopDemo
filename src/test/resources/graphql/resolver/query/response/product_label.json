@@ -1,0 +1,306 @@
+{
+  "data": {
+    "allProducts": [
+      {
+        "label": "Holdlamis",
+        "type": "Cardguard",
+        "color": "Green",
+        "hex": "#fdcd4f",
+        "price": 81.46,
+        "currency": "Rial",
+        "src": "https://api.sentia.com/139x100.png/ff4444/ffffff",
+        "code": "7271687394"
+      },
+      {
+        "label": "Holdlamis",
+        "type": "Cardguard",
+        "color": "Orange",
+        "hex": "#5214f2",
+        "price": 61.16,
+        "currency": "Naira",
+        "src": "https://api.sentia.com/114x100.png/dddddd/000000",
+        "code": "4721565291"
+      },
+      {
+        "label": "Holdlamis",
+        "type": "Cardguard",
+        "color": "Red",
+        "hex": "#396d5f",
+        "price": 1.68,
+        "currency": "Euro",
+        "src": "https://api.sentia.com/216x100.png/dddddd/000000",
+        "code": "5412748171"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Aerified",
+        "color": "Fuscia",
+        "hex": "#9d9993",
+        "price": 51.99,
+        "currency": "Rupiah",
+        "src": "https://api.sentia.com/231x100.png/dddddd/000000",
+        "code": "7516093009"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Lotlux",
+        "color": "Teal",
+        "hex": "#d7b63b",
+        "price": 20.1,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/194x100.png/5fa2dd/ffffff",
+        "code": "6317140367"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Opela",
+        "color": null,
+        "hex": null,
+        "price": null,
+        "currency": null,
+        "src": null,
+        "code": null
+      },
+      {
+        "label": "Holdlamis",
+        "type": "Transcof",
+        "color": "Green",
+        "hex": "#b167c5",
+        "price": 65.24,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/202x100.png/ff4444/ffffff",
+        "code": "3498818147"
+      },
+      {
+        "label": "Holdlamis",
+        "type": "Vagram",
+        "color": "Indigo",
+        "hex": "#958106",
+        "price": 80.04,
+        "currency": "Litas",
+        "src": "https://api.sentia.com/120x100.png/dddddd/000000",
+        "code": "1804276693"
+      },
+      {
+        "label": "Holdlamis",
+        "type": "Vagram",
+        "color": "Purple",
+        "hex": "#94d628",
+        "price": 42.97,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/213x100.png/cc0000/ffffff",
+        "code": "2729592636"
+      },
+      {
+        "label": "Holdlamis",
+        "type": "Vagram",
+        "color": "Orange",
+        "hex": "#96d43d",
+        "price": 31.01,
+        "currency": "Krone",
+        "src": "https://api.sentia.com/202x100.png/5fa2dd/ffffff",
+        "code": "0795751362"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Prodder",
+        "color": "Turquoise",
+        "hex": "#72dd1b",
+        "price": 18.91,
+        "currency": "Baht",
+        "src": "https://api.sentia.com/249x100.png/dddddd/000000",
+        "code": "4250166805"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Prodder",
+        "color": "Maroon",
+        "hex": "#a600d2",
+        "price": 43.92,
+        "currency": "Peso",
+        "src": "https://api.sentia.com/151x100.png/dddddd/000000",
+        "code": "5928923597"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Prodder",
+        "color": "Blue",
+        "hex": "#3b5a3a",
+        "price": 96.73,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/234x100.png/cc0000/ffffff",
+        "code": "0187172323"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Mat Lam Tam",
+        "color": null,
+        "hex": null,
+        "price": null,
+        "currency": null,
+        "src": null,
+        "code": null
+      },
+      {
+        "label": "Home Ing",
+        "type": "Namfix",
+        "color": "Green",
+        "hex": "#dc460c",
+        "price": 6.36,
+        "currency": "Cordoba",
+        "src": "https://api.sentia.com/204x100.png/dddddd/000000",
+        "code": "3877224970"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Namfix",
+        "color": "Yellow",
+        "hex": "#b7a89f",
+        "price": 74.77,
+        "currency": "Sol",
+        "src": "https://api.sentia.com/219x100.png/dddddd/000000",
+        "code": "0714258474"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Namfix",
+        "color": "Khaki",
+        "hex": "#8b1a7e",
+        "price": 54.19,
+        "currency": "Rupiah",
+        "src": "https://api.sentia.com/210x100.png/cc0000/ffffff",
+        "code": "8746655298"
+      },
+      {
+        "label": "Holdlamis",
+        "type": "Voltsillam",
+        "color": "Mauv",
+        "hex": "#e852b6",
+        "price": 12.51,
+        "currency": "Bolivar",
+        "src": "https://api.sentia.com/233x100.png/dddddd/000000",
+        "code": "3437007122"
+      },
+      {
+        "label": "Holdlamis",
+        "type": "Voltsillam",
+        "color": "Green",
+        "hex": "#69a78d",
+        "price": 4.61,
+        "currency": "Peso",
+        "src": "https://api.sentia.com/123x100.png/ff4444/ffffff",
+        "code": "1521334323"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Y-find",
+        "color": "Aquamarine",
+        "hex": "#442922",
+        "price": 78.25,
+        "currency": "Quetzal",
+        "src": "https://api.sentia.com/188x100.png/cc0000/ffffff",
+        "code": "5687004203"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Y-find",
+        "color": "Violet",
+        "hex": "#89abeb",
+        "price": 50.12,
+        "currency": "Rupiah",
+        "src": "https://api.sentia.com/227x100.png/dddddd/000000",
+        "code": "3049624736"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Domainer",
+        "color": "Aquamarine",
+        "hex": "#e49e62",
+        "price": 6.19,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/158x100.png/dddddd/000000",
+        "code": "3734860717"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Latlux",
+        "color": "Khaki",
+        "hex": "#1c3f93",
+        "price": 8.42,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/240x100.png/cc0000/ffffff",
+        "code": "2213829152"
+      },
+      {
+        "label": "Holdlamis",
+        "type": "Daltfresh",
+        "color": "Crimson",
+        "hex": "#8d0d93",
+        "price": 76.59,
+        "currency": "Pound",
+        "src": "https://api.sentia.com/231x100.png/cc0000/ffffff",
+        "code": "9054270942"
+      },
+      {
+        "label": "Holdlamis",
+        "type": "Daltfresh",
+        "color": "Green",
+        "hex": "#24eb36",
+        "price": 34.75,
+        "currency": "Krona",
+        "src": "https://api.sentia.com/106x100.png/cc0000/ffffff",
+        "code": "4963108801"
+      },
+      {
+        "label": "Holdlamis",
+        "type": "Daltfresh",
+        "color": "Pink",
+        "hex": "#6365c9",
+        "price": 50.59,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/175x100.png/ff4444/ffffff",
+        "code": "8577275582"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Bamity",
+        "color": null,
+        "hex": null,
+        "price": null,
+        "currency": null,
+        "src": null,
+        "code": null
+      },
+      {
+        "label": "Home Ing",
+        "type": "Zoolab",
+        "color": "Turquoise",
+        "hex": "#a9daa4",
+        "price": 54.91,
+        "currency": "Yuan Renminbi",
+        "src": "https://api.sentia.com/143x100.png/dddddd/000000",
+        "code": "0560654677"
+      },
+      {
+        "label": "Home Ing",
+        "type": "Zontrax",
+        "color": "Pink",
+        "hex": "#7245fc",
+        "price": 30.18,
+        "currency": "Krona",
+        "src": "https://api.sentia.com/117x100.png/ff4444/ffffff",
+        "code": "7304100133"
+      },
+      {
+        "label": "Holdlamis",
+        "type": "Tin",
+        "color": null,
+        "hex": null,
+        "price": null,
+        "currency": null,
+        "src": null,
+        "code": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+query{
+    allProducts(filter:{type:"Latlux"},sort:"price"){
+        label
+        type
+        color
+        hex
+        price
+        currency
+        src
+        code
+    }
+}
