@@ -15,7 +15,7 @@ There are several ways to run a Spring Boot application on your local machine. O
 Alternatively you can use the [Spring Boot Gradle plugin](https://spring.io/guides/gs/gradle/) like so:
 
 ```shell
-gradle bootRun -Dspring.profiles.active=dev
+./gradlew bootRun --args='--spring.profiles.active=dev'
 ```
 
 Production (prod) profile is available as well. Make sure that you have your own database up and running (port: 27017)
