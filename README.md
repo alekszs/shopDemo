@@ -27,3 +27,13 @@ MongoDB
 `resources.json.products.json` contains a data set which is being inserted at the start-up by `com.sentia.shopdemo.config.DatabaseChangelog`
 
 changelog.switch in `application.yml` can be used to enable or disable the initial database population
+
+
+##GraphQL
+
+Provides aditional Schemas and Queries
+
+Available at '/playground'
+
+
+
