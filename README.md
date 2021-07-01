@@ -29,7 +29,7 @@ MongoDB
 changelog.switch in `application.yml` can be used to enable or disable the initial database population
 
 
-##GraphQL
+## GraphQL
 
 Provides aditional Schemas and Queries
 
