@@ -31,7 +31,7 @@ changelog.switch in `application.yml` can be used to enable or disable the initi
 
 ## GraphQL
 
-Provides aditional Schemas and Queries
+Playground provides aditional Schemas and Queries
 
 Available at `/playground`
 
