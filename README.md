@@ -33,7 +33,7 @@ changelog.switch in `application.yml` can be used to enable or disable the initi
 
 Provides aditional Schemas and Queries
 
-Available at '/playground'
+Available at `/playground`
 
 
 
