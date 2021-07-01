@@ -31,7 +31,17 @@ public class DatabaseChangelog {
     private final String ENTITY_NAME = "DatabaseChangelog";
     private final String COLORS = "colors";
     private final String WRONG_LABLE = "lable";
-    private final String WRONG_RIGHT = "label";
+
+    private final String LABEL = "label";
+    private final String TYPE = "type";
+    private final String COLOR = "color";
+    private final String HEX = "hex";
+    private final String PRICE = "price";
+    private final String CURRENCY = "currency";
+    private final String SRC = "src";
+    private final String CODE = "code";
+
+
     @Autowired
     ProductRepository productRepository;
 
@@ -44,45 +54,8 @@ public class DatabaseChangelog {
         try {
             //Loading json file as a string & making label property consistent
             String json = new String(Files.readAllBytes(Paths.get(Objects.requireNonNull(getClass().getClassLoader().getResource(filePath)).getPath())));
-            json = json.replaceAll(WRONG_LABLE, WRONG_RIGHT);
-
             //Normalizing json
-            JsonObject jsonObject = (JsonObject) JsonParser.parseString(json);
-            JsonArray productsArray = new JsonArray();
-
-            jsonObject.keySet().iterator().forEachRemaining((product) -> {
-                JsonObject productObj;
-                JsonObject currentObj = (JsonObject) jsonObject.get(product);
-                JsonObject currentObjColors = (JsonObject) currentObj.get(COLORS);
-                JsonArray colorsArray = new JsonArray();
-
-                currentObjColors.keySet().iterator().forEachRemaining((color) -> {
-                    colorsArray.add(currentObjColors.get(color));
-                });
-
-                if (colorsArray.size() > 0) {
-
-                    for (JsonElement obj : colorsArray) {
-                        productObj = new JsonObject();
-                        JsonObject currentColor = (JsonObject) obj;
-                        productObj.add("label", currentObj.get("label"));
-                        productObj.add("type", currentObj.get("type"));
-                        productObj.add("color", currentColor.get("label"));
-                        productObj.add("hex", currentColor.get("hex"));
-                        productObj.add("price", currentColor.get("price"));
-                        productObj.add("currency", currentColor.get("currency"));
-                        productObj.add("src", currentColor.get("src"));
-                        productObj.add("code", currentColor.get("code"));
-                        productsArray.add(productObj);
-                    }
-                } else {
-                    productObj = new JsonObject();
-                    productObj.add("label", currentObj.get("label"));
-                    productObj.add("type", currentObj.get("type"));
-                    productsArray.add(productObj);
-                }
-            });
-
+            JsonArray productsArray = normalizeJson(json);
             //Mapping objects from json array according to product data model
             List<Product> allProducts = new ObjectMapper().readValue(productsArray.toString(),
                     new TypeReference<List<Product>>() {
@@ -94,4 +67,53 @@ public class DatabaseChangelog {
             log.debug(e.getMessage());
         }
     }
+
+    private JsonArray normalizeJson(String json) {
+        JsonObject jsonObject = (JsonObject) JsonParser.parseString(json);
+        JsonArray productsArray = new JsonArray();
+
+        jsonObject.keySet().iterator().forEachRemaining((product) -> {
+            JsonObject productObj;
+            JsonObject currentObj = (JsonObject) jsonObject.get(product);
+            JsonObject currentObjColors = (JsonObject) currentObj.get(COLORS);
+            JsonArray colorsArray = new JsonArray();
+
+            currentObjColors.keySet().iterator().forEachRemaining((color) -> {
+                colorsArray.add(currentObjColors.get(color));
+            });
+
+            if (colorsArray.size() > 0) {
+
+                for (JsonElement obj : colorsArray) {
+                    JsonObject currentColor = (JsonObject) obj;
+                    productObj = new JsonObject();
+                    productObj.add(LABEL, currentObj.get(LABEL));
+                    productObj.add(TYPE, currentObj.get(TYPE));
+                    productObj.add(COLOR, determineLabel(currentColor));
+                    productObj.add(HEX, currentColor.get(HEX));
+                    productObj.add(PRICE, currentColor.get(PRICE));
+                    productObj.add(CURRENCY, currentColor.get(CURRENCY));
+                    productObj.add(SRC, currentColor.get(SRC));
+                    productObj.add(CODE, currentColor.get(CODE));
+                    productsArray.add(productObj);
+                }
+            } else {
+                productObj = new JsonObject();
+                productObj.add(LABEL, currentObj.get(LABEL));
+                productObj.add(TYPE, currentObj.get(TYPE));
+                productsArray.add(productObj);
+            }
+        });
+
+        return productsArray;
+    }
+
+    private JsonElement determineLabel(JsonObject currentColor) {
+        if (!currentColor.has(WRONG_LABLE)) {
+            return currentColor.get(LABEL);
+        } else {
+            return currentColor.get(WRONG_LABLE);
+        }
+    }
+
 }

@@ -32,12 +32,14 @@ class DatabaseChangelogTest {
 
     @Test
     void validateCertainProducts() {
+        //given
+        //when
         List<Product> testProducts1 = productRepository.findAllByLabelAndType("Fintone","Latlux");
         List<Product> testProducts2 = productRepository.findAllByLabelAndType("Viva", "Aerified");
 
         Product testProduct1A = testProducts1.get(0);
         Product testProduct1M = testProducts1.get(1);
-
+        //then
         assertEquals(2, testProducts1.size());
         assertEquals(1, testProducts2.size());
 

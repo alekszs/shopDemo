@@ -34,36 +34,43 @@ class ProductResolverTest {
 
     @Test
     void getProductsFilteredByLabel() throws Exception {
+        //given
         var testName = "product_label";
+        //when
+        //mocking GraphQL
         var graphQLResponse = graphQLTestTemplate
                 .postForResource(format(GRAPHQL_QUERY_REQUEST_PATH, testName));
 
         var expectedResponseBody = read(format(GRAPHQL_QUERY_RESPONSE_PATH, testName));
-
+        //then
         assertThat(graphQLResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertEquals(expectedResponseBody, graphQLResponse.getRawResponse().getBody(), true);
     }
 
     @Test
     void getProductsFilteredByPriceRange() throws Exception {
+        //given
         var testName = "product_price";
+        //when
         var graphQLResponse = graphQLTestTemplate
                 .postForResource(format(GRAPHQL_QUERY_REQUEST_PATH, testName));
 
         var expectedResponseBody = read(format(GRAPHQL_QUERY_RESPONSE_PATH, testName));
-
+        //then
         assertThat(graphQLResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertEquals(expectedResponseBody, graphQLResponse.getRawResponse().getBody(), true);
     }
 
     @Test
     void getProductsFilteredByTypeAndSortedByPrice() throws Exception {
+        //given
         var testName = "product_type_sort";
+        //when
         var graphQLResponse = graphQLTestTemplate
                 .postForResource(format(GRAPHQL_QUERY_REQUEST_PATH, testName));
 
         var expectedResponseBody = read(format(GRAPHQL_QUERY_RESPONSE_PATH, testName));
-
+        //then
         assertThat(graphQLResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
         assertEquals(expectedResponseBody, graphQLResponse.getRawResponse().getBody(), true);
     }

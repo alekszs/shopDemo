@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Product {
 
     @Id
-    private String Id;
+    private String id;
 
     private String label;
 
@@ -30,7 +30,7 @@ public class Product {
 
     public Product(String id, String label, String type, String color, String hex,
                    Double price, String currency, String src, String code) {
-        this.Id = id;
+        this.id = id;
         this.label = label;
         this.type = type;
         this.color = color;
@@ -42,11 +42,11 @@ public class Product {
     }
 
     public String getId() {
-        return Id;
+        return id;
     }
 
     public void setId(String id) {
-        Id = id;
+        id = id;
     }
 
     public String getLabel() {
@@ -116,7 +116,7 @@ public class Product {
     @Override
     public String toString() {
         return "Product{" +
-                "Id='" + Id + '\'' +
+                "Id='" + id + '\'' +
                 ", label='" + label + '\'' +
                 ", type='" + type + '\'' +
                 ", color='" + color + '\'' +
